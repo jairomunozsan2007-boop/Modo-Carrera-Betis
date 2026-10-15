@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Betis Career Manager",
+  "short_name": "Betis Career",
+  "description": "Archivo personal para tu modo carrera del Real Betis en EA SPORTS FC 27.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f6f3",
+  "theme_color": "#075c3b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

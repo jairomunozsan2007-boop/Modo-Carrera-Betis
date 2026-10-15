@@ -1,0 +1,21 @@
+BETIS CAREER MANAGER — APP INSTALABLE (PWA)
+
+CONTENIDO
+- index.html: la app
+- manifest.webmanifest: nombre y configuración de instalación
+- service-worker.js: caché para abrir la app con conexión limitada
+- icon.svg: icono
+
+IMPORTANTE
+Esta carpeta es una Progressive Web App (PWA). Para que Android permita instalarla correctamente y funcione como app independiente, hay que publicarla en una dirección HTTPS. Abrir index.html directamente desde el móvil no basta para habilitar todas las funciones PWA.
+
+FORMA SENCILLA DE INSTALAR EN ANDROID
+1. Publica los archivos de esta carpeta en un alojamiento HTTPS estático (por ejemplo, GitHub Pages).
+2. Abre la URL HTTPS en Chrome en Android.
+3. Pulsa ⋮ > Añadir a pantalla de inicio o Instalar aplicación.
+4. Abre desde el icono creado.
+
+DATOS
+La app conserva los registros en el almacenamiento local del navegador. Exporta periódicamente una copia JSON desde “Archivo y ajustes”. No se sincroniza automáticamente entre dispositivos.
+
+No es una app oficial de EA Sports ni del Real Betis.
